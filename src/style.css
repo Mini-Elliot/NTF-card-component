@@ -81,7 +81,7 @@ img {
     cursor: pointer;
     border-radius: 5px;
 
-    >img:not(class) {
+    >img:not([class]) {
 
         border-radius: inherit;
     }
